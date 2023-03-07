@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/ajudaadb
+    username: ajudaa
+    password: ajudaa
+    hikari:
+      poolName: Hikari
+      auto-commit: false
